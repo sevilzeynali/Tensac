@@ -136,7 +136,6 @@ with tf.Session() as sess:
 			writer.add_summary(c,epoch * total_batch + avg_cost)
 			# Compute average loss
 			avg_cost+=loss1
-			i+=batch_size
 		# Display logs per epoch step
 		if epoch % display_step == 0:
 			print("Epoch:", '%04d' % (epoch+1), "cost=", "{:.9f}".format(avg_cost))
