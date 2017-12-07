@@ -1,5 +1,5 @@
 
-# Tensac(Tensorflow Scientific Article Classification)
+# Tensac(Tensorflow Scientific Articles Classification)
 
 This is a program in Python for classifing the scientific articles with Tensorflow and the neural networks. It uses Python [Tensorflow](https://www.tensorflow.org/) library.
 
