@@ -32,7 +32,7 @@ onehot_encoder = OneHotEncoder(sparse=False)
 integer_encoded = integer_encoded.reshape(len(integer_encoded),1)
 onehot_data_label = onehot_encoder.fit_transform(integer_encoded)
 
-#importer les datas de test et les labels de test
+#importing test data and test labels
 data_test=np.genfromtxt(TEST_DATA_PATH)
 
 #Converting test data set labels to One-hot
