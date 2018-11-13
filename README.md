@@ -7,7 +7,7 @@ This is a program in Python for classifing the scientific articles with Tensorfl
 
 You need Python >= 2.6 or >= 3.3
 
-Yous should install tensorflow 1.4.0
+You should install tensorflow 1.4.0
 
 This program uses only the CPU and not GPU
 
