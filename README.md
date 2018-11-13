@@ -16,7 +16,7 @@ for using this program you need to have data train as a vector and the labels of
 You need also a test data as like of your data train it should be vectorize you need also the labels of this data test for testing the performance of your model.
 
 You can make a file with one article abstract per line. You can vectorize this corpora with [fastText](https://fasttext.cc/).
-You should also have your labels or gategories for these abstracts in another text file. each line of this file refers to each line of the abstract file. so that the first line of your label file is the category of your first abstract in abstract file.
+You should also have your labels or categories for these abstracts in another text file. each line of this file refers to each line of the abstract file. so that the first line of your label file is the category of your first abstract in abstract file.
 Your testing data should have the same format. You creat a text file of data test and a text file of labels.
 
 
